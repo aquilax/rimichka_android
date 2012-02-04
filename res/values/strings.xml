@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RimichkaActivity!</string>
+    <string name="app_name">Rimichka</string>
+    <string name="title">РИМИЧКА</string>
+    <string name="headcolor">#3465A4</string>
+    <string name="btn_lbl">римувай</string>
+    <string name="edit_hint">думичка</string>
+
+</resources>
