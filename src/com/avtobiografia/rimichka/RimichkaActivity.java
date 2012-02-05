@@ -12,7 +12,7 @@ public class RimichkaActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     }
-    
+/*    
     public void search_button_click(View view) {
     	EditText search_field = (EditText) findViewById(R.id.search_field);
     	String text = search_field.getText().toString();
@@ -20,9 +20,7 @@ public class RimichkaActivity extends Activity {
     }
 
 	private void search(View view, String text) {
-		
-	}
-    
-   
-    
+		//
+	}   
+*/
 }

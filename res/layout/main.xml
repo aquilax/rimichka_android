@@ -8,8 +8,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/title"
-        android:textAppearance="@string/title"
         android:textColor="@string/headcolor"
+        android:gravity="center_vertical"
         android:textSize="60dp" />
 
     <EditText
@@ -24,14 +24,13 @@
         android:id="@+id/search_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_lbl" 
-        android:onClick="search_button_click"/>
+        android:text="@string/btn_lbl"/>
 
-    <ListView
-        android:id="@+id/words_list"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.98" >
-    </ListView>
+	<ListView
+  		android:id="@+android:id/list"
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+	</ListView>
+
 
 </LinearLayout>
