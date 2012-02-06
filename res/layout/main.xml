@@ -8,29 +8,27 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/title"
-        android:textColor="@string/headcolor"
-        android:gravity="center_vertical"
-        android:textSize="60dp" />
+        android:textColor="#3465A4"
+        android:textSize="62dp" />
 
     <EditText
-        android:id="@+id/search_field"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/edit_hint" >
+        android:id="@+id/word"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:hint="@string/word_hint" android:text="зона">
+
         <requestFocus />
     </EditText>
 
     <Button
-        android:id="@+id/search_button"
-        android:layout_width="match_parent"
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_lbl"/>
+        android:text="@string/btn_caption" android:onClick="searchClick"/>
 
-	<ListView
-  		android:id="@+android:id/list"
-  		android:layout_width="match_parent"
-  		android:layout_height="wrap_content" >
-	</ListView>
-
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
 
 </LinearLayout>
